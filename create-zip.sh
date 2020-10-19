@@ -1,6 +1,10 @@
 #!/bin/bash
 
-VERSION=$(cat VERSION)
-echo "Version $VERSION."
+VERSION="$(cat VERSION)"
+FILENAME="toadjaune-vanilla-client-modpack-$VERSION.zip"
+echo "Building $FILENAME"
 
-zip -jr9 -Z bzip2 target.zip archive_contents/
+pushd archive_contents > /dev/null
+  rm "../public/$FILENAME"
+  zip -r "../public/$FILENAME" *
+popd > /dev/null
