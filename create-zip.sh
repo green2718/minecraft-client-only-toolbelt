@@ -1,10 +1,6 @@
 #!/bin/bash
 
-VERSION="$(cat VERSION)"
-FILENAME="toadjaune-client-only-toolbelt-$VERSION.zip"
-echo "Building $FILENAME"
-
 pushd archive_contents > /dev/null
-  rm -f "../public/$FILENAME"
-  zip -r "../public/$FILENAME" *
+  rm -f "../modpack.zip"
+  zip -r "../modpack.zip" *
 popd > /dev/null
