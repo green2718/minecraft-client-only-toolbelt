@@ -1,17 +1,17 @@
 {
     "id": "1.16.3",
     "inheritsFrom": "1.16.3",
-    "releaseTime": "2020-09-30T20:11:15+00:00",
-    "time": "2020-09-30T20:11:15+00:00",
+    "releaseTime": "2020-10-20T19:18:24+00:00",
+    "time": "2020-10-20T19:18:24+00:00",
     "type": "release",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "libraries": [
         {
-            "name": "net.fabricmc:fabric-loader:0.10.0+build.208",
+            "name": "net.fabricmc:fabric-loader:0.10.3+build.211",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "net.fabricmc:yarn:1.16.3+build.17",
+            "name": "net.fabricmc:yarn:1.16.3+build.47",
             "url": "https://maven.fabricmc.net/"
         },
         {
@@ -19,7 +19,7 @@
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "net.fabricmc:sponge-mixin:0.8.1+build.21",
+            "name": "net.fabricmc:sponge-mixin:0.8.2+build.23",
             "url": "https://maven.fabricmc.net/"
         },
         {
