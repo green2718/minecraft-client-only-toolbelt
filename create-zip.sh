@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VERSION="$(cat VERSION)"
-FILENAME="toadjaune-vanilla-client-modpack-$VERSION.zip"
+FILENAME="toadjaune-client-only-toolbelt-$VERSION.zip"
 echo "Building $FILENAME"
 
 pushd archive_contents > /dev/null
